@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.cloth {
+    padding-top: 11rem;
+}
+.home {
+    background-image: url(G2.jpeg);
+    height: 45rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.logo {
+    margin: 0;
+    font-family: Anton, sans-serif;
+    font-size: 3rem;
+    padding: 10px 100px;
+    height: 80px;
+    float: left;
+    color: #fff;
+    background: rgb(2, 192, 2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav {
+    background-color: #252525;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+nav,links {
+    font-family: sans-serif;
+}
+.ordernow {
+    border-radius: 30px;
+    color: rgb(260, 260, 260);
+    background-color: #b1b1c5;
+    font-size: 15px;
+}
+.confidence {
+    font-family: 'Noto Serif', serif;
+    color: white;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 1);
+    font-size: 6em;
+}
+.style {
+    font-size: 3em;
+}
+.choice {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 1);
+}
+@media only screen and (min-width: 800px) {
+
+.confidence {
+    font-size: 7em;
+    text-align: center;
+}
+
+.choice {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.cloth {
+    padding-top: 7rem;
+    display: grid;
+    place-items: center;
+}
+
+}
+.service {
+    background-image: url(G3.jpeg);
+    height: 20rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.customer-row{
+    padding-top: 10rem;
+}
+.image-grid {
+    height: 5rem;
+}
+.grid-container {
+    display: grid;
+    grid-gap: 10px; 
+}
+.grid-item {
+    background-color: #ffffff; 
+    padding: 10px;
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .grid-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+.deluxe {
+padding-top: 3rem;
+margin: 0;
+font-size: 2em;
+color: white;
+font-family: 'Noto Serif', serif;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.style {
+font-family: 'Noto Serif', serif;
+font-size: 3em;
+text-align: center;
+color: rgb(0, 0, 0);
+}
+@media screen and (min-width: 768px) {
+    .deluxe {
+        padding-top: 2rem;
+        margin: 0;
+        font-size: 3.8em;
+        color: white;
+        font-family: 'Noto Serif', serif;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+      }
+
+      .great {
+        padding-top: 0;
+      }
+
+      .style {
+        font-size: 3em;
+        text-align: center;
+      }
+  }
+  .element {
+    transition: transform 0.4s ease !important;
+    cursor: pointer;
+  }
+  
+  .element:hover {
+    transform: scale(1.1);
+  }
+  #trends {
+    padding-top: 5rem;
+}
+ 
+.shirt {
+    background-image: url(G1.jpeg);
+    height: 20rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+.short {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.mug-content {
+    background-color: #2f2f30;
+}
+.h4-mug {
+    font-family: 'Noto Serif', serif;
+}
+.shirt-item {
+    color: rgb(88, 87, 87);
+    margin: 0;
+    padding-top: 3rem;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.name {
+    color: #ffffff;
+    font-family: 'Noto Serif', serif;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, .3);
+}
+.content {
+    padding: 0 10px;
+}
+.div-item {
+    padding-bottom: 5rem;
+}
+.contact {
+    padding-bottom: 3rem;
+    margin-top: 8rem;
+    height: auto;
+    background-color: #39393A;
+  }
+ 
+.contacts {
+    padding-top: 3rem;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.icon {
+    color: white;
+}
+.stlyes {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    font-size: 2.8em;
+    padding-top: 5rem;
+    color: white;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 1);
+}

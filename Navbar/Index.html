@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Font Awesome Icons-->
+    <script src="https://kit.fontawesome.com/f437f9adcd.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome CDNJS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="Navbar.css">
+    <title>GCafe</title>
+</head>
+<body>
+    <!-- Navbar Structure -->
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+          <a href="#" class="logo"><i class="fa-solid fa-mug-hot"></i> GCafe</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fa-solid fa-bars"></i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-address-card"></i> About</a></li>
+            <li><a href="#"><i class="fa-solid fa-address-book"></i> Contact Us</a></li>
+            <li><a href="#"><i class="fa-solid fa-user"></i> Log In</a></li>
+            <li><a href="#"><i class="fa-solid fa-user-plus"></i> Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="nav-content">
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a class="active" href="#drinks">Featured Drinks</a></li>
+            <li class="tab"><a href="#blended">Blended Beverage</a></li>
+            <li class="tab"><a href="#food">Featured Food</a></li>
+            <li class="tab"><a href="#dessert">Desserts</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <!-- Sidenav Structure-->
+      <ul class="sidenav" id="mobile-demo">
+        <h1 class="color">Welcome</h1>
+        <h2 class="color">To</h2>
+        <h3 class="color"><i class="fa-solid fa-mug-hot"></i> GCafe</h3>
+        <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+        <li><a href="#"><i class="fa-solid fa-address-card"></i>About</a></li>
+        <li><a href="#"><i class="fa-solid fa-address-book"></i>Contact Us</a></li>
+        <li><a href="#"><i class="fa-solid fa-user"></i>Log In</a></li>
+        <li><a href="#"><i class="fa-solid fa-user-plus"></i>Sign Up</a></li>
+      </ul>
+      
+      <section class="items">
+        <div>
+          <br><br><br><br><br><br><br><br>
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <!-- Featured Drinks Sections -->
+                <div class="item" id="drinks">
+                  <img src="Image6.png" alt="">
+                  <h4>Malty Delight Chocolate Latte </h4>
+                  <button><i class="fa-solid fa-cart-shopping"></i> Order Now</button>
+                  <br>
+                  <img src="Image7.png" alt="">
+                  <h4>Malty Delight Chocolate Frappuccino</h4>
+                  <button><i class="fa-solid fa-cart-shopping"></i> Order Now</button>
+                </div>
+              </div>
+              <div class="col s12">
+                <!-- Blended Beverage Sections -->
+                <div class="item" id="blended">
+                  <img src="Image10.jpg" alt="">
+                  <h4>Brown Espresso Frappuccino</h4>
+                  <button><i class="fa-solid fa-cart-shopping"></i> Order Now</button>
+                  <br>
+                  <img src="Image11.jpg" alt="">
+                  <h4>White Mocha Frappuccino</h4>
+                  <button><i class="fa-solid fa-cart-shopping"></i> Order Now</button>
+                </div>
+              </div>
+              <div class="col s12">
+                <!-- Featured Food Sections -->
+                <div class="item" id="food">
+                  <img src="Image14.png" alt="">
+                  <h4>Grilled K-cheese Sandwich</h4>
+                  <button><i class="fa-solid fa-cart-shopping"></i> Order Now</button>
+                  <br>
+                  <img src="Image15.png" alt="">
+                  <h4>Tomato, Mozzarella, and Pesto Bake</h4>
+                  <button><i class="fa-solid fa-cart-shopping"></i> Order Now</button>
+                </div>
+              </div>
+              <div class="col s12">
+                <!-- Desserts Sections -->
+                <div class="item" id="dessert">
+                  <img src="Image18.jpg" alt="">
+                  <h4>New York Cheesecake</h4>
+                  <button><i class="fa-solid fa-cart-shopping"></i> Order Now</button>
+                  <br>
+                  <img src="Image19.jpg" alt="">
+                  <h4>Blueberry Licious Cheesecake</h4>
+                  <button><i class="fa-solid fa-cart-shopping"></i> Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Structure-->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">About Us</h5>
+            <p class="grey-text text-lighten-4">“Wish your happiness bloom, with a cup of bliss”</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2024 GCafe.All rights reserved.
+        <a class="grey-text text-lighten-4 right" href="#!"><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.tabs').tabs();
+  });
+    </script>
+</body>
+</html>

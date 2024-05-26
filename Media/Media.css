@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105px;
+    padding: 3px 30px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 2px solid #fff;
+}
+nav .logo {
+    padding: 20px 100px;
+    height: 80px;
+    float: left;
+    font-size: 33px;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(2, 192, 2);
+    font-family: Golden Beach;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a {
+    line-height: 100%;
+    color: #fff;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px 20px;
+    grid-column-gap: 50px;
+    grid-row-gap: 500px;
+    background: url(Image24.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.item img:hover {
+    transform: scale(1.04);
+}
+
+.item button {
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+
+.item button:hover {
+    transform: scale(1.08);
+}
+
+.color {
+    -webkit-background-clip: text;
+    background-color:rgb(7, 238, 7);
+    text-align: center;
+}
+
+.page-footer {
+    background-color: rgb(1, 46, 1);
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="Scrollspy.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home">
+        <img src="Image1.jpeg" width="50%" height="800vh" alt="">
+    </section>
+    <section id="about">
+        <img src="Image2.jpeg" width="50%" height="800vh" alt="">
+    </section>
+    <section id="services">
+        <img src="Image3.jpeg" width="50%" height="800vh" alt="">
+    </section>
+    <section id="gallery">
+        <img src="Image4.jpeg" width="50%" height="800vh" alt="">
+    </section>
+    <section id="blogs">
+        <img src="Image5.jpeg" width="50%" height="800vh" alt="">
+    </section>
+    <section id="contact">
+        <img src="Image6.jpeg" width="50%" height="800vh" alt="">
+    </section>
+
+    <script>
+        let section = document.querySelectorAll('section');
+        let navLinks = document.querySelectorAll('header nav a');
+
+        window.onscroll = () =>{
+            
+            section.forEach(sec =>{
+
+                let top = window.scrollY;
+                let offset = sec.offsetTop - 150;
+                let height = sec.offsetHeight;
+                let id = sec.getAttribute('id');
+
+                if(top >= offset && top < offset + height){
+                    navLinks.forEach(links =>{
+                        links.classList.remove('active');
+                        document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+                    });
+                };
+
+            });
+        };
+    </script>
+</body>
+</html>

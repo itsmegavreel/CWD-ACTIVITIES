@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Font Awesome Icons-->
+    <script src="https://kit.fontawesome.com/f437f9adcd.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome CDNJS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="Parallax&Modal.css">
+    <title>GClothing</title>
+</head>
+<body>
+    <!-- Navbar Structure -->
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+          <a href="#" class="logo">GClothing</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fa-solid fa-bars"></i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#clothes">Featured</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+    </nav>
+    
+      <!-- Sidenav Structure -->
+      <ul class="sidenav" id="mobile-demo">
+        <h1 class="color">Welcome</h1>
+        <h2 class="color">To</h2>
+        <h3 class="color"><i class="fa-solid fa-mug-hot"></i> GClothing</h3>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#clothes">Featured</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      
+       <!-- Home Structure -->
+      <div class="home">
+        <div class="container" id="home">
+          <div class="cloth">
+            <h1 class="confidence">Wearing my confidence.</h1>
+            <h3 class="choice">Get The Best Choice GClothing</h3>
+            <a href="#menu"><button class="btn ordernow">ORDER NOW</button></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured Structure -->
+      <div id="clothes">
+        <div class="container">
+          <h1 class="style">Turn up your Body : Best Clothes In The World</h1>
+          <div class="row">
+            <div class="col s12 m6 l3">
+              <div class="card element z-depth-3 materialboxed">
+                <div class="card-image">
+                  <img src="G4.jpeg" alt="" width="100%" height="300vh"
+                  class="responsive img">
+                  <span class="card-title">Beat</span>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l3">
+              <div class="card element z-depth-3 materialboxed">
+                <div class="card-image">
+                  <img src="G5.jpeg" alt="" width="100%" height="300vh"
+                  class="responsive img">
+                  <span class="card-title">Relax</span>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l3">
+              <div class="card element z-depth-3 materialboxed">
+                <div class="card-image">
+                  <img src="G6.jpeg" alt="" width="100%" height="300vh"
+                  class="responsive img">
+                  <span class="card-title">Treat</span>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l3">
+              <div class="card element z-depth-3 materialboxed">
+                <div class="card-image">
+                  <img src="G7.jpeg" alt="" width="100%" height="300vh"
+                  class="responsive img">
+                  <span class="card-title">Feel</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="shirt">
+        <h3 class="styles center-align">BEAT, RELAX, TREAT & FEEL</h3>
+      </div>
+
+      <!-- Menu Structure -->
+      <div class="container short-div" id="menu">
+        <h1 class="center-align h1-style">Get your Best Clothes</h1>
+        <p class="shirt-item center-align flow-text">Turn up your Body with the best Clothes in the world</p>
+        <br><br>
+        <div class="row">
+          <div class="col s12 m6 l3">
+              <div class="card z-depth-2">
+                <div class="card-image">
+                  <img src="G8.jpeg" width="100%" height="279vh">>
+                  <a class="btn-floating btn-medium halfway-fab waves-effect waves-light grey btn modal-trigger"
+                  href="#modal1"><i class="material-icons">local_grocery_store</i></a>
+                  <div class="modal" id="modal1">
+                    <div class="modal-content">
+                      <h4 class="center-align h4-mug">Your Order Have Been Process and Successfully Added</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-content mug-content">
+                  <p class="white-text text-darken-2">Men's Shirt</p>
+                </div>
+              </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card z-depth-2">
+              <div class="card-image">
+                <img src="G9.jpeg" width="100%" height="300vh">
+                <a class="btn-floating btn-medium halfway-fab waves-effect waves-light grey btn modal-trigger"
+                href="#modal1"><i class="material-icons">local_grocery_store</i></a>
+                <div class="modal" id="modal1">
+                  <div class="modal-content">
+                    <h4 class="center-align h4-mug">Your Order Have Been Process and Successfully Added</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content mug-content">
+                <p class="white-text text-darken-2">Men's Set Clothes</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card z-depth-2">
+              <div class="card-image">
+                <img src="G10.jpeg" width="100%" height="300vh">
+                <a class="btn-floating btn-medium halfway-fab waves-effect waves-light grey btn modal-trigger"
+                href="#modal1"><i class="material-icons">local_grocery_store</i></a>
+                <div class="modal" id="modal1">
+                  <div class="modal-content">
+                    <h4 class="center-align h4-mug">Your Order Have Been Process and Successfully Added</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content mug-content">
+                <p class="white-text text-darken-2">Men's Shirt & Short</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card z-depth-2">
+              <div class="card-image">
+                <img src="G11.jpeg" width="100%" height="300vh">
+                <a class="btn-floating btn-medium halfway-fab waves-effect waves-light grey btn modal-trigger"
+                href="#modal1"><i class="material-icons">local_grocery_store</i></a>
+                <div class="modal" id="modal1">
+                  <div class="modal-content">
+                    <h4 class="center-align h4-mug">Your Order Have Been Process and Successfully Added</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content mug-content">
+                <p class="white-text text-darken-2">Men's Shirt With Green</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card z-depth-2">
+              <div class="card-image">
+                <img src="G12.jpeg" width="100%" height="300vh">
+                <a class="btn-floating btn-medium halfway-fab waves-effect waves-light grey btn modal-trigger"
+                href="#modal1"><i class="material-icons">local_grocery_store</i></a>
+                <div class="modal" id="modal1">
+                  <div class="modal-content">
+                    <h4 class="center-align h4-mug">Your Order Have Been Process and Successfully Added</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content mug-content">
+                <p class="white-text text-darken-2">Floral Dress</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card z-depth-2">
+              <div class="card-image">
+                <img src="G13.jpeg" width="100%" height="300vh">
+                <a class="btn-floating btn-medium halfway-fab waves-effect waves-light grey btn modal-trigger"
+                href="#modal1"><i class="material-icons">local_grocery_store</i></a>
+                <div class="modal" id="modal1">
+                  <div class="modal-content">
+                    <h4 class="center-align h4-mug">Your Order Have Been Process and Successfully Added</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content mug-content">
+                <p class="white-text text-darken-2">Black Dress</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card z-depth-2">
+              <div class="card-image">
+                <img src="G14.jpeg" width="100%" height="300vh">
+                <a class="btn-floating btn-medium halfway-fab waves-effect waves-light grey btn modal-trigger"
+                href="#modal1"><i class="material-icons">local_grocery_store</i></a>
+                <div class="modal" id="modal1">
+                  <div class="modal-content">
+                    <h4 class="center-align h4-mug">Your Order Have Been Process and Successfully Added</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content mug-content">
+                <p class="white-text text-darken-2">Women's Set Clothes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="service">
+        <h1 class="center-align deluxe">Style is a way to say who you are without having to speak.</h1>
+        <h1 class="center-align great">Taste the Great Clothes <span class="green-text">ORDER NOW</span></h1>
+      </div>
+      <br><br><br>
+      <div class="row">
+        <div class="container">
+          <div class="grid-container">
+            <div class="grid-item">
+              <img src="G15.png" alt=""
+              class="image-grid element">
+              <h5>FREE DELIVERY</h5>
+              <p>Enjoy free delivery on orders above 3 clothes.</p>
+            </div>
+            <div class="grid-item">
+              <img src="G16.png" alt=""
+              class="image-grid element">
+              <h5>RETURN POLICY</h5>
+              <p>Our flexible return policy ensures a stress-free orders experience</p>
+            </div>
+            <div class="grid-item">
+              <img src="G17.png" alt=""
+              class="image-grid element">
+              <h5>DISCOUNTS</h5>
+              <p>Discover amazing deals and discounts that will leave you delighted.</p>
+            </div>
+            <div class="grid-item">
+              <img src="G18.png" alt=""
+              class="image-grid element">
+              <h5>CUSTOMER SUPPORT</h5>
+              <p>Our friendly customer support team is here to assist you every step of the way.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Footer Structure-->
+      <div class="contact" id="contact">
+        <div class="row container">
+          <div class="col s12 m4 l4">
+            <h5 class="contacts">GET HELP</h5>
+            <a href=""><p class="grey-text text-lighten-1">Order Status</p></a>
+            <a href=""><p class="grey-text text-lighten-1"> Delivery</p></a>
+            <a href=""><p class="grey-text text-lighten-1">Returns</p></a>
+            <a href=""><p class="grey-text text-lighten-1">Payment Options</p></a>
+            <a href=""><p class="grey-text text-lighten-1"> Contact Us</p></a>
+          </div>
+          <div class="col s12 m4 l4">
+            <h5 class="contacts">ABOUT US</h5>
+            <a href=""><p class="grey-text text-lighten-1">News</p></a>
+            <a href=""><p class="grey-text text-lighten-1">Careers</p></a>
+            <a href=""><p class="grey-text text-lighten-1">Investors</p></a>
+            <a href=""><p class="grey-text text-lighten-1">Sustainability</p></a>
+          </div>
+          <div class="col s12 m4 l4">
+            <h5 class="contacts">CONTACT US</h5>
+            <a href="" class="White"><i class="fa-brands fa-facebook icon"></i></a>
+            <a href=""><i class="fa-brands fa-twitter icon"></i></a>
+            <a href=""><i class="fa-brands fa-instagram icon"></i></a>
+            <a href=""><i class="fa-brands fa-discord icon"></i></a>
+            <a href=""><i class="fa-brands fa-github icon"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin icon"></i></a>
+          </div>
+        </div>
+      </div>
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+    $('.parallax').parallax();
+    $('.modal').modal();
+    $('.slider').slider();
+    $('.materialboxed').materialbox();
+    $('.sidenav').sidenav();
+    });
+    </script>
+</body>
+</html>
