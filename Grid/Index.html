@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Font Awesome Icons-->
+    <script src="https://kit.fontawesome.com/f437f9adcd.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome CDNJS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="Grid.css">
+    <title>Grid</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Grid</h1>
+        <div class="divider"></div>
+        <div class="row">
+            <div class="col s9">
+                <p>We are using a standard 12 column fluid responsive grid system. The grid helps you layout your page in an ordered, easy fashion.</p>
+                <h1>Container</h1>
+                <p>The container class is not strictly part of the grid but is important in laying out content. It allows you to center your page content. The container class is set to ~70% of the window width. It helps you center and contain your page content. We use the container to contain our body content.</p>
+                <h1>Introduction</h1>
+                <p>Take a look at this section to quickly understand how the grid works!<br><br>12 Columns<br><br>Our standard grid has 12 columns. No matter the size of the browser, each of these columns will always have an equal width.</p>
+                <div class="row">
+                    <div class="col s1 green">1</div>
+                    <div class="col s1 green">2</div>
+                    <div class="col s1 green">3</div>
+                    <div class="col s1 yellow">4</div>
+                    <div class="col s1 yellow">5</div>
+                    <div class="col s1 yellow">6</div>
+                    <div class="col s1 red">7</div>
+                    <div class="col s1 red">8</div>
+                    <div class="col s1 red">9</div>
+                    <div class="col s1 blue">10</div>
+                    <div class="col s1 blue">11</div>
+                    <div class="col s1 blue">12</div>
+                </div>
+                <h5 class="black-text">Columns live inside Rows</h5>
+                <p>Remember when you are creating your layout that all columns must be contained inside a row and that you must add the col class to your inner divs to make them into columns</p>       
+                <div class="row">
+                    <div class="col s12 pink">This div is 12-columns wide on all screen sizes</div>
+                    <div class="col s6 orange">6-columns (one-half)</div>
+                    <div class="col s6 orange">6-columns (one-half)</div>
+                  </div>
+                <h1>Offsets</h1>
+                <p>To offset, simply add offset-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to offset by.</p>
+                <div class="row">
+                    <div class="col s12 purple"><span class="flow-text">This div is 12-columns wide on all screen sizes</span></div>
+                    <div class="col s6 offset-s6 green"><span class="flow-text">6-columns (offset-by-6)</span></div>
+                  </div>
+                  <h1>Push and Pull</h1>
+                  <p>You can easily change the order of your columns with push and pull. Simply add push-s2 or pull-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to push or pull by.</p>
+                  <div class="row">
+                    <div class="col s7 push-s5 blue"><span class="flow-text">This div is 7-columns wide on pushed to the right by 5-columns.</span></div>
+                    <div class="col s5 pull-s7 green"><span class="flow-text">5-columns wide pulled to the left by 7-columns.</span></div>
+                  </div>        
+            </div>
+            <div class="col s3">
+                <img src="Image1.jpg" width="200px" alt="">
+                <h6>Redesign the way you jam with FigJam AI.</h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
